@@ -8,7 +8,7 @@ La arquitectura de la aplicación posee tres capas:
 
 ## Funcionalidades
 
-###### Back End
+### Back End
 
 Se encuentra desarrollado con Express.js, con el archivo app.js como “entry point”, un router y dos controladores que contienen los endpoints. Se ha utilizado Sequelize como ORM para efectuar las consultas en la database. Para ello se crearon dos modelos, uno por cada tabla (“product” y “category”).
 
@@ -22,7 +22,7 @@ Tras efectuarse la consulta en la database mediante el método findAll() de Sequ
 
 RESPUESTA:
 
-![](https://ibb.co/YQcKjz7)
+![response](https://ibb.co/YQcKjz7)
 
 
 
@@ -34,10 +34,10 @@ Tras efectuarse la consulta en la database mediante el método findAll() y el op
 
 RESPUESTA:
 
-![](https://ibb.co/JsyvxX6)
+![response](https://ibb.co/JsyvxX6)
 
 
-###### Front End
+####Front End
 Para el montado de la página web se ha utilizado HTML y para el manejo de eventos y del DOM se ha optado por vanilla JavaScript. 
 Ofrece dos vistas: la “home” y la de resultados de la búsqueda. 
 La navegación entre las mismas se ha realizado a través del método “href” de la interfaz “location” (window.location.href). 
