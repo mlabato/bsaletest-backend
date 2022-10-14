@@ -37,7 +37,7 @@ RESPUESTA:
 ![response](https://i.ibb.co/87drzFv/search.jpg)
 
 
-####Front End
+### Front End
 Para el montado de la página web se ha utilizado HTML y para el manejo de eventos y del DOM se ha optado por vanilla JavaScript. 
 Ofrece dos vistas: la “home” y la de resultados de la búsqueda. 
 La navegación entre las mismas se ha realizado a través del método “href” de la interfaz “location” (window.location.href). 
