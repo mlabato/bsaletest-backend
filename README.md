@@ -22,7 +22,7 @@ Tras efectuarse la consulta en la database mediante el método findAll() de Sequ
 
 RESPUESTA:
 
-![response](https://ibb.co/YQcKjz7](https://i.ibb.co/F35f7Sb/products.jpg)
+![response](https://i.ibb.co/F35f7Sb/products.jpg)
 
 
 
